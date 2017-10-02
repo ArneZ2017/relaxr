@@ -1,0 +1,168 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.black {
+	color:black;
+}
+
+.white {
+	color: white;
+}
+.text-centered {
+	text-align: center;
+}
+.yellow {
+	background-color: #f9e42e;
+}
+.dark-blue {
+	background-color: #033048;
+}
+.light-grey {
+	background-color: #606161
+}
+.almost-black {
+	background-color: #121212
+}
+.weight-light {
+	font-weight: 300;
+	font-style: normal;
+}
+.weight-light-italic {
+	font-weight: 300;
+	font-style: italic;
+}
+.weight-semibold {
+	font-weight: 600;
+	font-style: normal;
+}
+.weight-extrabold {
+	font-weight: 800;
+	font-style: normal;
+}
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 800px;
+}
+
+.center-stage {
+	margin-top: 200px;
+}
+
+.benefits {
+	background-color: #f0efef;
+	padding: 40px;
+
+}
+
+.float-left {
+	float: left;
+	width: 75%;
+}
+.call-to-action {
+	width: 200px;
+	margin: auto; /*centers the div horizontically in the section*/
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	}
+
+a:visited, a:link, a:hover, a:active  {
+	text-decoration: none;
+}
+
+.call-to-action.yellow.weight-extrabold a {
+	color: black;
+}
+
+.call-to-action.dark-blue.weight-extrabold a {
+	color: white;
+}
+
+.testimonial {
+	clear: both;
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	text-align: center;
+	padding: 30px 100px 30px 100px;
+}
+
+
+.sign-up-now {
+	padding: 20px;
+}
+.footer {
+	color: #f9e42e;
+	padding: 20px;
+	text-align: center;
+	height: 250px;
+}
+.left-picture {
+	float:left;
+	height: 45px;
+	width: 49%;	
+	background: url("../images/twitter.png") no-repeat right;
+}
+.right-picture {
+	float:right;
+	height: 45px;
+	width: 49%;	
+	background: url("../images/facebook.png") no-repeat left;
+}
+footer div p {
+	clear: both;
+	margin-top: 100px;
+}
