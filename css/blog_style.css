@@ -1,0 +1,195 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	background-color: #f0efef;
+	line-height: 1.5;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #121212; 
+}
+
+header {
+	background-color: #033048;
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+
+main {
+	float: left;
+	width: 50%;
+	border-bottom: solid 2px;
+	padding-bottom: 5px;
+}
+
+aside {
+	float: right;
+	width: 20%;
+}
+
+nav {
+	font-weight:600;
+	float:right;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+  margin-bottom: 30px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+h1 {
+	float: left;
+	color: white;
+	font-weight:900; 
+}
+
+h2 {
+	font-weight: 600;
+	color: #033048;
+}
+
+nav a {
+	color: yellow;
+}
+
+p a {
+
+	float: right;
+	color: #033048;
+	font-weight: 600;
+}
+
+aside ul a {
+
+	color:#121212;
+}
+
+main p:first-letter {
+ 	float: left;
+ 	font-size: 45px;
+}
+
+
+nav a {
+	padding-left: 10px;
+}
+
+aside ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Not sure how to center nav vertically in the header*/
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+section {
+
+	clear: both;
+	background-color: #f9e42e;
+	padding: 20px;
+	
+}
+
+section div {
+
+	width: 200px;
+	margin: auto; /*centers the div horizontically in the section*/
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #033048;
+	font-weight: 800;
+
+
+}
+
+section div a {
+
+	color:white;
+}
+
+.footer {
+	color: #f9e42e;
+	padding: 20px;
+	text-align: center;
+	height: 250px;
+	background-color: black;
+}
+.left-picture {
+	float:left;
+	height: 45px;
+	width: 49%;	
+	background: url("../images/twitter.png") no-repeat right;
+}
+.right-picture {
+	float:right;
+	height: 45px;
+	width: 49%;	
+	background: url("../images/facebook.png") no-repeat left;
+}
+footer div p {
+	clear: both;
+	margin-top: 100px;
+}
+
+footer h2 {
+
+	color: yellow;
+	font-weight: 600;
+}
+
+footer p {
+	color:white;
+}
